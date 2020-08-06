@@ -1,5 +1,3 @@
-import Player from '../objects/player.js'
-
 export default class MainScene extends Phaser.Scene {
 	constructor(config) {
 		super(config);
@@ -89,7 +87,6 @@ export default class MainScene extends Phaser.Scene {
 		});
 
 		//player
-		//this.player = new Player();
 		this.player = this.physics.add.sprite(400, 350, "atlas", "misa-front");
 
 		//collider
