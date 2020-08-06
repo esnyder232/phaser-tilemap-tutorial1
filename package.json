@@ -1,7 +1,7 @@
 {
-  "name": "first_phaser_project",
+  "name": "phaser-tilemap-tutorial",
   "version": "1.0.0",
-  "description": "Messing around in phaser to see if I can use it.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --env.env=dev",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esnyder232/first_phaser_project.git"
+    "url": "git+https://github.com/esnyder232/phaser-tilemap-tutorial1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/esnyder232/first_phaser_project/issues"
+    "url": "https://github.com/esnyder232/phaser-tilemap-tutorial1/issues"
   },
-  "homepage": "https://github.com/esnyder232/first_phaser_project#readme",
+  "homepage": "https://github.com/esnyder232/phaser-tilemap-tutorial1#readme",
   "dependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.0.3",
