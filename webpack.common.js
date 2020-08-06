@@ -20,6 +20,10 @@ module.exports = {
 				{
 					from: path.resolve(__dirname, 'index.html'),
 					to: path.resolve(__dirname, 'dist')
+				},
+				{
+					from: path.resolve(__dirname, 'assets'),
+					to: path.resolve(__dirname, 'dist/assets')
 				}
 			]			
 		}),
@@ -28,17 +32,6 @@ module.exports = {
 			'typeof WEBGL_RENDERER': JSON.stringify(true)
 		})
 	],
-	module: {
-		rules: [{
-			test: /\.(png|jpg|gif)$/,
-			use: {
-				loader: 'file-loader',
-				options: {
-					name: '[path][name].[ext]'
-				}
-			}
-		}]
-	},
 	devServer: {
 		contentBase: path.join(__dirname, 'dist'),
 		hot: false,
